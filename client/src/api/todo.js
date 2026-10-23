@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:1000/api/todos";
+const BASE_URL = `${import.meta.env.VITE_API_URL}/api/todos`;
 
 export const getTodos = async () => {
   const token = localStorage.getItem("token");
