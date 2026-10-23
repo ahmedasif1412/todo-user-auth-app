@@ -1,0 +1,76 @@
+/* ---------- Auth screen ---------- */
+.auth-container {
+  max-width: 350px;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+
+.auth-error {
+  color: red;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-submit-btn {
+  padding: 8px;
+}
+
+.auth-toggle-text {
+  margin-top: 15px;
+}
+
+.auth-toggle-btn {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ---------- Todos screen ---------- */
+.todos-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.todos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.todos-add-form {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.todos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.todo-finished {
+  text-decoration: line-through;
+}
